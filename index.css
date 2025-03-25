@@ -1,18 +1,21 @@
 body {
     display:flex;
     justify-content:center;
+    background-color: #ffd6df;
+
 }
 
-#container {
+#content {
     height:550px;
     width:550px;
-    background:rgb(138, 113, 137);
+    background:#a15e6e;
     border-radius:5px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     gap:15px;
+    margin:100px;
 }
 
 h1 {
@@ -25,7 +28,7 @@ h1 {
 #quote-container {
     width:500px;
     height:300px;
-    background-color:rgb(127, 105, 126);
+    background-color: #a76978;
     border-radius:5px;
     display:flex;
     justify-content:center;
@@ -42,7 +45,7 @@ h1 {
 
 button {
     background: white;
-    color:rgb(111, 91, 110);
+    color:#a15e6e;
     height:50px;
     width:300px;
     border-style:none;
