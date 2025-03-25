@@ -1,0 +1,54 @@
+body {
+    display:flex;
+    justify-content:center;
+}
+
+#container {
+    height:550px;
+    width:550px;
+    background:rgb(138, 113, 137);
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight:bold;
+    color:White;
+}
+
+#quote-container {
+    width:500px;
+    height:300px;
+    background-color:rgb(127, 105, 126);
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#quote-el {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    font-weight:lighter;
+    margin:50px;
+}
+
+button {
+    background: white;
+    color:rgb(111, 91, 110);
+    height:50px;
+    width:300px;
+    border-style:none;
+    border-radius:5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:15px;
+}
